@@ -1,13 +1,14 @@
 /*Faça um programa que crie um vetor por leitura com 5 valores de pontuação de uma 
  atividade e o escreva em seguida. Encontre após a maior pontuação e a apresente.*/ 
 
+ const prompt = require ("prompt-sync")()
 
-let num[5]
-let maior = String
+let num = [5]
+let maior = num[i]
 	
 for(let i = 0; i <= 4; i++){
 
-    let idade = Number(prompt(`Digite a sua idade: ${num[i]}`))
+    let num = Number(prompt(`Digite o valor: `))
     }
 
     maior = num[0]
