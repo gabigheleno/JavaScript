@@ -4,22 +4,14 @@
  const prompt = require ("prompt-sync")()
 
 let num = [5]
-let maior = num[i]
+let maior = 0
 	
 for(let i = 0; i <= 4; i++){
 
-    let num = Number(prompt(`Digite o valor: `))
-    }
+  num[i] = Number(prompt("Digite a sequência de 5 valores positivos: "))
 
-    maior = num[0]
-
-    for(i=0; i <=4; i++){
-
-        if(num[i] > maior){
-            
-            maior = num[i]
-        }
-
-        }
-    
-        console.log(`Maior vetor: ${maior}`)
+    if (num[i] > maior)
+    maior = num[i]
+}
+        console.table(num)
+        console.log(`Maior valor digitado: ${maior}`)
